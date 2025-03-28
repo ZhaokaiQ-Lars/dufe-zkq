@@ -5,3 +5,6 @@ num = re.findall(r'\d+',text)
 sum_result = sum(int(num) for num in numbers)
 updated_text = re.sub(r'\bx\b',str(sum_result),text)
 print(updated_text)
+
+
+#xixi hello
