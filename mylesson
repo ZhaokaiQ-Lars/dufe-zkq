@@ -1,0 +1,7 @@
+#学习matchh search findall sub等函数
+import re
+text = "a is 3,b is 6,c is 10,the answer is x."
+num = re.findall(r'\d+',text)
+sum_result = sum(int(num) for num in numbers)
+updated_text = re.sub(r'\bx\b',str(sum_result),text)
+print(updated_text)
